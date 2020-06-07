@@ -5,6 +5,7 @@ import HookCounter from './components/HookCounter';
 import HookcounterThree from './components/HookCounterThree';
 import HookCounter4 from './components/HookCounter4';
 import HookCounterOne from './components/HookCounterOne';
+import HookMouse from './components/Hook Mouse';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <HookcounterThree></HookcounterThree>
     <HookCounter4></HookCounter4>
     <HookCounterOne></HookCounterOne>
+    <HookMouse></HookMouse>
         latha
     </div>
   );
