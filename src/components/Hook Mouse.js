@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 const HookMouse = () => {
-
+//hai
     const [x, setX] = useState(0);
     const [y, setY] = useState(0);
     const lm = (e) => {
@@ -13,7 +13,11 @@ const HookMouse = () => {
         
         console.log("witin use EFFECT hOOKmOUSE");
         window.addEventListener('mousemove',lm);
-        
+        return () => {
+            console.log("component unmountingcode HookMouse");
+            
+            window.removeEventListener('mousemove',lm);
+        }
     
         
     },[]);

@@ -8,6 +8,7 @@ import HookCounterOne from './components/HookCounterOne';
 import HookMouse from './components/Hook Mouse';
 import MouseContainer from './components/MouseContainer';
 import IntervalHookCounter from './components/IntervalHookCounter';
+import DataFetching from './components/DataFetching';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   {/* <HookMouse></HookMouse> */}
   <MouseContainer></MouseContainer>
   <IntervalHookCounter></IntervalHookCounter>
+  <DataFetching></DataFetching>
         latha
     </div>
   );
