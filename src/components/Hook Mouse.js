@@ -4,6 +4,7 @@ const HookMouse = () => {
 //hai
     const [x, setX] = useState(0);
     const [y, setY] = useState(0);
+    const [a,setA] = useState(0);
     const lm = (e) => {
         setX(e.clientX);
         setY(e.clientY);
