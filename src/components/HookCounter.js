@@ -9,6 +9,7 @@ import React from 'react';
     //mydoc4
 //mydoc5 
 //k5
+//mydoc6
     const incrementFive = () => {
         for (let i = 0; i < 5; i++) {
             setCount(oc => oc+1);
