@@ -2,6 +2,7 @@ import React, { useState }  from 'react';
 
 function HookCounter4() {
     const [items,setItems] = useState([])
+    //k1
     const hc = () => {
         setItems([...items,{id : items.length, value : items.length+100}]);
     }
