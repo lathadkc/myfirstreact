@@ -10,15 +10,32 @@ import MouseContainer from './components/MouseContainer';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetching from './components/DataFetching';
 import test from './components/test';
-import calc from './components/calc';
+
+
+
+
+import MultiUse from './components/MultiUse';
+import RegistrationForm from './components/RegistrationForm';
+import VotingSystem from './components/VotingSystem';
+import Select1 from './components/Select1';
+import SelectMultiple from './components/SelectMultiple';
+import TableExample from './components/TableExample';
+//import Example from './components/Example';
+
 
 
 function App() {
   return (
     <div className="App">
       {/* <HookCounter></HookCounter> */}
-      <test></test>
-      <calc></calc>
+      {/* <Select1></Select1> */}
+      {/* <SelectMultiple></SelectMultiple> */}
+      {/* <test></test> */}
+      {/* <VotingSystem></VotingSystem> */}
+{/* <RegistrationForm></RegistrationForm>       */}
+      {/* <MultiUse></MultiUse> */}
+      {/* <Example></Example> */}
+      <TableExample></TableExample>
     {/* <HookcounterThree></HookcounterThree> */}
     {/* <HookCounter4></HookCounter4> */}
     {/* <HookCounterOne></HookCounterOne> */}
