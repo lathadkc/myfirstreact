@@ -20,7 +20,7 @@ import React from 'react';
              <div >
                  <table >
 <tr> 
- <td>  Counter and  {count} </td> </tr>
+ <td>  Counter and counter1 {count} </td> </tr>
 <tr>   <td><button onClick = {() => setCount(count +1)}  >increment</button></td>
 <td><button onClick = {() => setCount(count -1)}  >Decrement</button></td>
 <td><button onClick = {() => setCount(0)}  >Reset</button></td>
