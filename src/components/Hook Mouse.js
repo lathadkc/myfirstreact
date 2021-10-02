@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+gitimport React, { useState, useEffect } from 'react'
 
 const HookMouse = () => {
 //hai
@@ -6,7 +6,7 @@ const HookMouse = () => {
     const [y, setY] = useState(0);
     const [a,setA] = useState(0);
     //hai2docoments
-    const lm = (e) => {
+    const lm = (e) => {      
         setX(e.clientX);
         setY(e.clientY);
         
