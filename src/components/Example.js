@@ -7,6 +7,7 @@ const Example = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
+      Example
       <input
         name="email"
         ref={register({
